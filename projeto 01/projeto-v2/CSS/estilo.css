@@ -1,4 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+html{
+    background-image: url(../img/fundo_med.jpg);
+
+    background-size: cover;
+}
+
+.titulo{
+    background-color: #fff;
+    padding: 10px;
+}
 .container{
     margin: 0 auto ;
     width: 960px ;
+}
+.bloco  {
+    background-color: #fff;
+    border:#999;
+    border: 1px solid;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.bloco img{
+    border:solid rgb(109, 109, 109);
+ float: left;
+ margin: 10px 10px 0 0;
+}
+.bloco a{
+    color: rgb(4, 4, 75);
+    font-weight: bold;
+    text-decoration:none ;
+
+}
+.bloco a:hover{
+    color: rgb(93, 58, 223);
+    text-decoration: underline;
+    background-color: rgba(22, 14, 36, 0.301);
+    padding: 5px;
+}
+
+.bloco p {
+    font-family: 'Allison', cursive;
+   font-size: 16px;
+   
+   text-align: justify;
+   line-height: 1.5;
+
+
+}
+.clear{
+    clear: both;
 }
